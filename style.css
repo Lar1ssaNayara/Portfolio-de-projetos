@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Oxygen:wght@300;400;700&display=swap');
+
+
+@font-face{
+font-family: 'font1';
+src: url(font/LinLibertine_aBL.ttf);
+}
+
+:root{
+    --cor-principal: #612326 ;
+    --cor-secundaria: #2d0107;
+    --cor-destaque: ;
+}
+
+body{
+    background: linear-gradient(45deg, #d8b1b4, #bc6565);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4c0606;
+}
+
+h1, h2, h3{
+    font-family: "Chakra Petch", sans-serif;
+    color: #641515;
+    margin-bottom: 20px;
+}
+
+.lead{
+    color: #610f0f;
+    font-weight: 700;
+}
+
+
+
+header > img {
+    margin: 10px;
+}
+
+footer{
+    color: var(--cor-principal);
+}
+
+footer a:hover{
+    color: #641515;
+}
